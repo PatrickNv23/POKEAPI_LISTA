@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fuente karla -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./estilos/estilos.css">
+    <title>POKEAPI</title>
+</head>
+
+<body>
+    <section class="seccion_botones">
+        <h1 class="titulo">LISTA DE POKEMONES</h1>
+        <div class="div_botones">
+            <button id="btn_antes" class="btn btn_antes">Atrás</button>
+            <button id="btn_siguiente" class="btn btn_siguiente">Siguiente</button>
+        </div>
+    </section>
+
+    <section class="container">
+    </section>
+
+    <template id="template_pokemon">
+        <figure class="figure_container">
+            <img class="imagen_pokemon">
+            <figcaption></figcaption>
+        </figure>
+    </template>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
